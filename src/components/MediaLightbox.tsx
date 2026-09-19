@@ -153,7 +153,7 @@ export function MediaLightbox({
                 preload="metadata"
                 className="max-h-[75vh] w-auto max-w-full"
               >
-                Seu navegador não suporte a reprodução deste vídeo.
+                Seu navegador não suporta a reprodução deste vídeo.
               </video>
             )}
           </div>
