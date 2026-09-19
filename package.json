@@ -3,10 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "sync": "node scripts/sync-projects.mjs",
+    "predev": "node scripts/sync-projects.mjs",
+    "prebuild": "node scripts/sync-projects.mjs",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "next": "16.3.5",

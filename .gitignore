@@ -39,3 +39,13 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# referência local (não publicar no site)
+/Portifolio Enzo.pdf
+
+# vídeos grandes locais (hospede fora do Git; veja README)
+# descomente se preferir nunca versionar vídeos:
+# public/**/*.mp4
+# public/**/*.mov
+# public/**/*.webm
+# public/**/*.m4v
